@@ -1,6 +1,8 @@
 # nosql-challenge
 **Submitted by** Kaylyn Valdez-Scott **Date:** 21-NOV-2023 **Project Title:** Module 12 NoSQL Challenge
 
+*** note from Instructor - could not upload establishments.json file to Github as it surpasses 25 MB ***
+
 Purpose of project is to import json files to MongoDB, and use this information to manipulate and build DataFrames in Jupyter Notebook. I have been contracted by the editors of a food magazine, Eat Safe, Love, to evaluate ratings given by the UK Food Standards Agency.
 
 To begin, I imported the establishments.json file to MongoDB on my MAC, using the code mongoimport --type json -d uk_food -c establishments --drop --jsonArray establishments.json
