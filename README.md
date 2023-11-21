@@ -5,8 +5,8 @@ Purpose of project is to import json files to MongoDB, and use this information 
 
 To begin, I imported the establishments.json file to MongoDB on my MAC, using the code mongoimport --type json -d uk_food -c establishments --drop --jsonArray establishments.json
 
-**For Part 1 & 2 - see file labeled 'NoSQL_setup_starter-KaylynValdezScott'. 
-**Part 1 of the notebook aims to answer questions set out by the food magazine such as:
+**For Part 1 & 2** - see file labeled 'NoSQL_setup_starter-KaylynValdezScott'. 
+Part 1 of the notebook aims to answer questions set out by the food magazine such as:
 
 - List the databases you have in MongoDB. 
 - Confirm that uk_food is listed.
@@ -23,8 +23,8 @@ An exciting new halal restaurant just opened in Greenwich, but hasn't been rated
 - Use update_many to convert RatingValue to integer numbers.
 
 
-**For Part 3 - see file labeled 'NoSQL_analysis_starter-KaylynValdezScott'.
-**Part 3 aims to anser more questions Eat Safe, Love has such as:
+**For Part 3** - see file labeled 'NoSQL_analysis_starter-KaylynValdezScott'.
+Part 3 aims to anser more questions Eat Safe, Love has such as:
 
 - Use count_documents to display the number of documents contained in the result.
 - Display the first document in the results using pprint.
